@@ -1,0 +1,3 @@
+This is my test in bar.txt
+Here is another line
+And here is the last line

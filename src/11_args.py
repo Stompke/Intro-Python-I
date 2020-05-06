@@ -30,7 +30,7 @@ print(f2(7, 9, 1, 3, 4, 9, 0))  # Should print 33
 a = [7, 6, 5, 4]
 
 # How do you have to modify the f2 call below to make this work?
-print('\n Modify the f2 call \n')
+print('\n *** Modify the f2 Call *** \n')
 def f22(arr):
     sum = 0
     for num in arr:

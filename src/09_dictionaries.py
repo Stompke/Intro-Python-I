@@ -51,7 +51,8 @@ print(waypoints)
 # YOUR CODE HERE
 print("\n Change Waypoint Data")
 
-waypoints[0].update({"lon": -130, "name": "not a real place"})
+# waypoints[0].update({"lon": -130, "name": "not a real place"})
+waypoints[0]['lon'] = -130
 print(waypoints)
 
 
@@ -59,4 +60,5 @@ print(waypoints)
 # YOUR CODE HERE
 print("\n Loop and Print")
 for point in waypoints:
-    print(point)
+    # print("Name: %s, Latitude: %s, Longitude: %s" % (point['name'], point['lat'], point['lon']))
+    print(f"Name: {point['name']}, Latitude: {point['lat']}, Longitude: {point['lon']}")
